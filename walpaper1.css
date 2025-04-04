@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    background: url('https://media.istockphoto.com/id/2150823955/photo/clouds-in-the-sky-in-sunset.jpg?s=1024x1024&w=is&k=20&c=ZnYxq_LNQc2c4cTjW7MkoNYnO10SMWSdLsW_qu79HpQ=');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 100vh;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    text-align: start;
+    color: black;
+}
+.logo{
+    font-size: larger;
+    font-weight: bold;
+    margin-bottom: 250px;
+    margin-left: 20px;
+}
+.text{
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 500px;
+}
+.line{
+    border: 1px solid black;
+    width: 13%;
+    margin-left: 550px;
+    margin-bottom: 1%;
+}
+.time{
+    margin-left: 575px;
+    margin-bottom: 250px;
+}
+.end{
+    font-size: large;
+    font-weight: bold;
+}
